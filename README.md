@@ -1,5 +1,5 @@
- Step 1: Terminal mein ye commands run karo
-Tumhara (.venv) already active hai.
+ Step 1: open a terminal and run all command step by step
+ 
 
 Pehle libraries uninstall karo:
 python -m pip uninstall numpy opencv-python mediapipe -y
@@ -20,7 +20,7 @@ python -m pip install opencv-python==4.10.0.84
 python -m pip install mediapipe==0.10.21
 
 
-Step 3: Libraries check karo
+Step 3: Libraries check 
 python -c "import numpy, cv2, mediapipe as mp; print('NumPy:', numpy.__version__); print('OpenCV:', cv2.__version__); print('MediaPipe:', mp.__version__); print('Solutions:', hasattr(mp, 'solutions'))"
 
 
